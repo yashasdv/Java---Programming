@@ -1,4 +1,5 @@
-public class Typecasting {
+package basics;
+public class TypeCasting {
     public static void main(String[] args) {
 
         // Implicit Type Casting (Widening)
