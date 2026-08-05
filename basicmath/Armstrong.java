@@ -6,7 +6,6 @@ public class Armstrong {
 
         Scanner sc = new Scanner(System.in);
 
-        // Read a number from the user
         System.out.print("Enter a number : ");
         int num = sc.nextInt();
 
@@ -30,14 +29,12 @@ public class Armstrong {
         // Process each digit of the number
         for (; num != 0; num /= 10) {
 
-            // Extract the last digit
             int digit = num % 10;
 
             // Add digitcount to the sum
             sum += Math.pow(digit, count);
         }
 
-        // Check whether the calculated sum is equal to the original number
         if (sum == originalNumber) {
             System.out.print("Armstrong");
         } else {

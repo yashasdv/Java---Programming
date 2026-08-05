@@ -6,11 +6,9 @@ public class ReverseDigits {
 
         Scanner sc = new Scanner(System.in);
 
-        // Read a number from the user
         System.out.print("Enter a number : ");
         int num = sc.nextInt();
 
-        // Stores the reversed number
         int reverse = 0;
 
         // Continue until the number becomes 0,
@@ -24,7 +22,6 @@ public class ReverseDigits {
             reverse = reverse * 10 + digit;
         }
 
-        // Display the reversed number
         System.out.print("Reversed Number : " + reverse);
     }
 }
