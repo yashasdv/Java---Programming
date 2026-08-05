@@ -23,5 +23,6 @@ public class ReverseDigits {
         }
 
         System.out.print("Reversed Number : " + reverse);
+        sc.close();
     }
 }

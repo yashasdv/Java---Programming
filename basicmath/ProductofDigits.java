@@ -19,5 +19,7 @@ public class ProductofDigits {
         }
 
         System.out.println("Sum of digits: " + sum);
+
+        sc.close();
     }
 }

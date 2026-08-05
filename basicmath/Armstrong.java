@@ -40,5 +40,7 @@ public class Armstrong {
         } else {
             System.out.print("Not Armstrong");
         }
+
+        sc.close();
     }
 }

@@ -20,8 +20,10 @@ public class Divisors {
                 arr.add(i);
             }
         }
-        
+
         System.out.print("Divisors of a number : " + arr);
+
+        sc.close();
 
     }
 

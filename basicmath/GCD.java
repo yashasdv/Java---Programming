@@ -39,5 +39,7 @@ public class GCD {
         }
 
         System.out.print("Greatest Common Divisor of Two Numbers is: " + gcd);
+
+        sc.close();
     }
 }

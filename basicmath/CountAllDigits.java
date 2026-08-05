@@ -1,4 +1,3 @@
-package basicmath;
 
 import java.util.Scanner;
 
@@ -23,6 +22,8 @@ public class CountAllDigits {
         }
 
         System.out.print("Number of digits in " + OriginalNumber + " is: " + count);
+
+        sc.close();
 
     }
 

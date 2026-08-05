@@ -29,8 +29,10 @@ public class Palindrome {
             System.out.print("Palindrome");
 
         } else {
-            
+
             System.out.print("Not Palindrome");
         }
+
+        sc.close();
     }
 }
